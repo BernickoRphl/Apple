@@ -11,7 +11,7 @@ import SwiftUI
 struct Brush_BuddiesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
