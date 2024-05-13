@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         let streak = 10
+        
         VStack {
             GroupBox {
                 if streak > 7 {
