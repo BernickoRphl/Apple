@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0456A8132BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456A8122BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift */; };
-		0456A8152BEEF8EB00FA07F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456A8142BEEF8EB00FA07F7 /* ContentView.swift */; };
-		0456A8172BEEF8ED00FA07F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0456A8162BEEF8ED00FA07F7 /* Assets.xcassets */; };
-		0456A81A2BEEF8ED00FA07F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0456A8192BEEF8ED00FA07F7 /* Preview Assets.xcassets */; };
+		044644212BF49EEC00A86162 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044644192BF49EEC00A86162 /* Preview Assets.xcassets */; };
+		044644222BF49EEC00A86162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0446441B2BF49EEC00A86162 /* Assets.xcassets */; };
+		044644232BF49EEC00A86162 /* Bloom_SketchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446441C2BF49EEC00A86162 /* Bloom_SketchApp.swift */; };
+		044644242BF49EEC00A86162 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446441D2BF49EEC00A86162 /* ContentView.swift */; };
+		044644252BF49EEC00A86162 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446441E2BF49EEC00A86162 /* SplashScreenView.swift */; };
+		044644262BF49EEC00A86162 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446441F2BF49EEC00A86162 /* TimerView.swift */; };
 		0456A85D2BEF015300FA07F7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0456A85C2BEF015300FA07F7 /* WidgetKit.framework */; };
 		0456A85F2BEF015300FA07F7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0456A85E2BEF015300FA07F7 /* SwiftUI.framework */; };
 		0456A8622BEF015300FA07F7 /* Streak_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456A8612BEF015300FA07F7 /* Streak_WidgetBundle.swift */; };
@@ -19,8 +21,6 @@
 		0456A8682BEF015300FA07F7 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456A8672BEF015300FA07F7 /* AppIntent.swift */; };
 		0456A86A2BEF015400FA07F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0456A8692BEF015400FA07F7 /* Assets.xcassets */; };
 		0456A86E2BEF015400FA07F7 /* Streak WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0456A85A2BEF015300FA07F7 /* Streak WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		04F913E82BEFAD3900680B2B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F913E72BEFAD3900680B2B /* SplashScreenView.swift */; };
-		04F913EA2BEFB0CF00680B2B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F913E92BEFB0CF00680B2B /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		044644192BF49EEC00A86162 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0446441B2BF49EEC00A86162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0446441C2BF49EEC00A86162 /* Bloom_SketchApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bloom_SketchApp.swift; sourceTree = "<group>"; };
+		0446441D2BF49EEC00A86162 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0446441E2BF49EEC00A86162 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		0446441F2BF49EEC00A86162 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0456A8122BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brush_BuddiesApp.swift; sourceTree = "<group>"; };
-		0456A8142BEEF8EB00FA07F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0456A8162BEEF8ED00FA07F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0456A8192BEEF8ED00FA07F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0456A85A2BEF015300FA07F7 /* Streak WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Streak WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456A85C2BEF015300FA07F7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		0456A85E2BEF015300FA07F7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -62,8 +64,6 @@
 		0456A8672BEF015300FA07F7 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		0456A8692BEF015400FA07F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0456A86B2BEF015400FA07F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04F913E72BEFAD3900680B2B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		04F913E92BEFB0CF00680B2B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +86,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0446441A2BF49EEC00A86162 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				044644192BF49EEC00A86162 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044644202BF49EEC00A86162 /* BloomSketch */ = {
+			isa = PBXGroup;
+			children = (
+				0446441A2BF49EEC00A86162 /* Preview Content */,
+				0446441B2BF49EEC00A86162 /* Assets.xcassets */,
+				0446441C2BF49EEC00A86162 /* Bloom_SketchApp.swift */,
+				0446441D2BF49EEC00A86162 /* ContentView.swift */,
+				0446441E2BF49EEC00A86162 /* SplashScreenView.swift */,
+				0446441F2BF49EEC00A86162 /* TimerView.swift */,
+			);
+			path = BloomSketch;
+			sourceTree = "<group>";
+		};
 		0456A8062BEEF8EB00FA07F7 = {
 			isa = PBXGroup;
 			children = (
-				0456A8112BEEF8EB00FA07F7 /* Brush Buddies */,
+				044644202BF49EEC00A86162 /* BloomSketch */,
 				0456A8602BEF015300FA07F7 /* Streak Widget */,
 				0456A85B2BEF015300FA07F7 /* Frameworks */,
 				0456A8102BEEF8EB00FA07F7 /* Products */,
@@ -103,27 +124,6 @@
 				0456A85A2BEF015300FA07F7 /* Streak WidgetExtension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0456A8112BEEF8EB00FA07F7 /* Brush Buddies */ = {
-			isa = PBXGroup;
-			children = (
-				0456A8122BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift */,
-				0456A8142BEEF8EB00FA07F7 /* ContentView.swift */,
-				04F913E92BEFB0CF00680B2B /* TimerView.swift */,
-				04F913E72BEFAD3900680B2B /* SplashScreenView.swift */,
-				0456A8162BEEF8ED00FA07F7 /* Assets.xcassets */,
-				0456A8182BEEF8ED00FA07F7 /* Preview Content */,
-			);
-			path = "Brush Buddies";
-			sourceTree = "<group>";
-		};
-		0456A8182BEEF8ED00FA07F7 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0456A8192BEEF8ED00FA07F7 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		0456A85B2BEF015300FA07F7 /* Frameworks */ = {
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "Brush Buddies" */;
+			buildConfigurationList = 0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "BloomSketch" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0456A81A2BEEF8ED00FA07F7 /* Preview Assets.xcassets in Resources */,
-				0456A8172BEEF8ED00FA07F7 /* Assets.xcassets in Resources */,
+				044644222BF49EEC00A86162 /* Assets.xcassets in Resources */,
+				044644212BF49EEC00A86162 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0456A8152BEEF8EB00FA07F7 /* ContentView.swift in Sources */,
-				0456A8132BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift in Sources */,
-				04F913EA2BEFB0CF00680B2B /* TimerView.swift in Sources */,
-				04F913E82BEFAD3900680B2B /* SplashScreenView.swift in Sources */,
+				044644242BF49EEC00A86162 /* ContentView.swift in Sources */,
+				044644232BF49EEC00A86162 /* Bloom_SketchApp.swift in Sources */,
+				044644262BF49EEC00A86162 /* TimerView.swift in Sources */,
+				044644252BF49EEC00A86162 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BB.Brush-Buddies";
+				PRODUCT_BUNDLE_IDENTIFIER = BS.BloomSketch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -447,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "BB.Brush-Buddies";
+				PRODUCT_BUNDLE_IDENTIFIER = BS.BloomSketch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -510,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "Brush Buddies" */ = {
+		0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "BloomSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0456A81B2BEEF8ED00FA07F7 /* Debug */,
