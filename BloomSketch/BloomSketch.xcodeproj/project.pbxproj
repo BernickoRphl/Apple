@@ -48,7 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456A8122BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brush_BuddiesApp.swift; sourceTree = "<group>"; };
 		0456A8142BEEF8EB00FA07F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0456A8162BEEF8ED00FA07F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		0456A8062BEEF8EB00FA07F7 = {
 			isa = PBXGroup;
 			children = (
-				0456A8112BEEF8EB00FA07F7 /* Brush Buddies */,
+				0456A8112BEEF8EB00FA07F7 /* BloomSketch */,
 				0456A8602BEF015300FA07F7 /* Streak Widget */,
 				0456A85B2BEF015300FA07F7 /* Frameworks */,
 				0456A8102BEEF8EB00FA07F7 /* Products */,
@@ -99,13 +99,13 @@
 		0456A8102BEEF8EB00FA07F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */,
+				0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */,
 				0456A85A2BEF015300FA07F7 /* Streak WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0456A8112BEEF8EB00FA07F7 /* Brush Buddies */ = {
+		0456A8112BEEF8EB00FA07F7 /* BloomSketch */ = {
 			isa = PBXGroup;
 			children = (
 				0456A8122BEEF8EB00FA07F7 /* Brush_BuddiesApp.swift */,
@@ -115,7 +115,7 @@
 				0456A8162BEEF8ED00FA07F7 /* Assets.xcassets */,
 				0456A8182BEEF8ED00FA07F7 /* Preview Content */,
 			);
-			path = "Brush Buddies";
+			path = BloomSketch;
 			sourceTree = "<group>";
 		};
 		0456A8182BEEF8ED00FA07F7 /* Preview Content */ = {
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0456A80E2BEEF8EB00FA07F7 /* Brush Buddies */ = {
+		0456A80E2BEEF8EB00FA07F7 /* BloomSketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "Brush Buddies" */;
+			buildConfigurationList = 0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "BloomSketch" */;
 			buildPhases = (
 				0456A80B2BEEF8EB00FA07F7 /* Sources */,
 				0456A80C2BEEF8EB00FA07F7 /* Frameworks */,
@@ -165,9 +165,9 @@
 			dependencies = (
 				0456A86D2BEF015400FA07F7 /* PBXTargetDependency */,
 			);
-			name = "Brush Buddies";
+			name = BloomSketch;
 			productName = "Brush Buddies";
-			productReference = 0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */;
+			productReference = 0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0456A8592BEF015300FA07F7 /* Streak WidgetExtension */ = {
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "Brush Buddies" */;
+			buildConfigurationList = 0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "BloomSketch" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0456A80E2BEEF8EB00FA07F7 /* Brush Buddies */,
+				0456A80E2BEEF8EB00FA07F7 /* BloomSketch */,
 				0456A8592BEF015300FA07F7 /* Streak WidgetExtension */,
 			);
 		};
@@ -405,7 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Brush Buddies/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BloomSketch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Brush Buddies/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BloomSketch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -510,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "Brush Buddies" */ = {
+		0456A80A2BEEF8EB00FA07F7 /* Build configuration list for PBXProject "BloomSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0456A81B2BEEF8ED00FA07F7 /* Debug */,
@@ -519,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "Brush Buddies" */ = {
+		0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "BloomSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0456A81E2BEEF8ED00FA07F7 /* Debug */,
