@@ -57,6 +57,8 @@
 		0446441F2BF49EEC00A86162 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 <<<<<<< HEAD:Brush Buddies/Brush Buddies.xcodeproj/project.pbxproj
 <<<<<<< HEAD:Brush Buddies/Brush Buddies.xcodeproj/project.pbxproj
+<<<<<<< HEAD:Brush Buddies/Brush Buddies.xcodeproj/project.pbxproj
+<<<<<<< HEAD:Brush Buddies/Brush Buddies.xcodeproj/project.pbxproj
 		0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 =======
 		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,12 @@
 		0456A8162BEEF8ED00FA07F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0456A8192BEEF8ED00FA07F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 >>>>>>> parent of a7c0b2b (Create README.md):Brush Buddies/Brush Buddies.xcodeproj/project.pbxproj
+=======
+		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> parent of ec81a6c (BloomSketch rename):BloomSketch/BloomSketch.xcodeproj/project.pbxproj
+=======
+		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> parent of ec81a6c (BloomSketch rename):BloomSketch/BloomSketch.xcodeproj/project.pbxproj
 =======
 		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 >>>>>>> parent of ec81a6c (BloomSketch rename):BloomSketch/BloomSketch.xcodeproj/project.pbxproj
