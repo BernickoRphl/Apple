@@ -1,6 +1,6 @@
 //
-//  Brush_BuddiesApp.swift
-//  Brush Buddies
+//  Bloom_SketchApp.swift
+//  BloomSketch
 //
 //  Created by MacBook Pro on 11/05/24.
 //

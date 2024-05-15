@@ -54,7 +54,7 @@
 		0446441D2BF49EEC00A86162 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0446441E2BF49EEC00A86162 /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		0446441F2BF49EEC00A86162 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
-		0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brush Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloomSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456A85A2BEF015300FA07F7 /* Streak WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Streak WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456A85C2BEF015300FA07F7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		0456A85E2BEF015300FA07F7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -120,7 +120,7 @@
 		0456A8102BEEF8EB00FA07F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */,
+				0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */,
 				0456A85A2BEF015300FA07F7 /* Streak WidgetExtension.appex */,
 			);
 			name = Products;
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0456A80E2BEEF8EB00FA07F7 /* Brush Buddies */ = {
+		0456A80E2BEEF8EB00FA07F7 /* BloomSketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "Brush Buddies" */;
+			buildConfigurationList = 0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "BloomSketch" */;
 			buildPhases = (
 				0456A80B2BEEF8EB00FA07F7 /* Sources */,
 				0456A80C2BEEF8EB00FA07F7 /* Frameworks */,
@@ -165,9 +165,9 @@
 			dependencies = (
 				0456A86D2BEF015400FA07F7 /* PBXTargetDependency */,
 			);
-			name = "Brush Buddies";
+			name = BloomSketch;
 			productName = "Brush Buddies";
-			productReference = 0456A80F2BEEF8EB00FA07F7 /* Brush Buddies.app */;
+			productReference = 0456A80F2BEEF8EB00FA07F7 /* BloomSketch.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0456A8592BEF015300FA07F7 /* Streak WidgetExtension */ = {
@@ -218,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0456A80E2BEEF8EB00FA07F7 /* Brush Buddies */,
+				0456A80E2BEEF8EB00FA07F7 /* BloomSketch */,
 				0456A8592BEF015300FA07F7 /* Streak WidgetExtension */,
 			);
 		};
@@ -519,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "Brush Buddies" */ = {
+		0456A81D2BEEF8ED00FA07F7 /* Build configuration list for PBXNativeTarget "BloomSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0456A81E2BEEF8ED00FA07F7 /* Debug */,
