@@ -30,11 +30,10 @@ struct SplashScreenView: View {
                     Image("BloomSketch_LogoWhite")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 240, height: 240)
+                        .frame(width: 300, height: 300)
                         .foregroundColor(.red)
-                    
                     Text("BloomSketch")
-                        .font(Font.custom("Baskerville-Bold", size: 40))
+                        .font(Font.custom("Baskerville-Bold", size: 70))
                         .foregroundColor(Color(hex: 0x1B3F2E))
                 }
                 .scaleEffect(size)
